@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /*Body styling*/
+            body{
+                background-color: white;
+            }
+
+            /*Styling for class "name"*/
+            .names {
+                border-radius: 5px;
+                background-color:gainsboro;
+                padding: 20px;
+            }
+            #country, #fname, #lname{
+                margin: 8px 0;
+                padding: 12px 20px;
+                display: inline-block;
+                box-sizing: border-box;
+                border: 1.5px solid rgb(235, 235, 235);
+                border-radius: 5px;
+                width: 100%;
+            }
+            input[type=submit]{
+                margin: 7px 0;
+                padding: 13px 21px;
+                border: none;
+                border-radius: 4px;
+                background-color:rgb(4, 170, 4);
+                color: white;
+                cursor: pointer;
+                width: 10%;
+            }
+            input[type=submit]:hover{
+                background-color: rgb(50, 248, 155);
+            }
+            #subject {
+                padding: 13px 20px;
+                box-sizing: border-box;
+                border: 3px solid rgb(211, 210, 210);
+                border-radius: 5px;
+                background-color: white;
+                font-size: 16px;
+                width: 100%;
+                height: 200px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+        </style>
+    </head>
+    <body
+    <form>
+    <div class="names">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
+        <lable for="lname">Last name</lable><br>
+        <input type="text" id="lname" name="lname" placeholder="Your last name.."><br>
+        
+        <label for="country">Country</label><br>
+        <select type="text" id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">canada</option>
+            <option value="holand">holand</option>
+            <option value="itally">itally</option>
+            <option value="togo">togo</option>
+            <option value="china">china</option>
+        </select>
+        <label for="subject">Subject:</label><br>
+        <textarea type="text" id="subject" name="subject" placeholder="Write something.."></textarea><br>
+        
+        <input type="submit" id="subm" value="submit"><br>
+    </div>
+    </form>
+    </body>
+</html>
+<!--thanks for your time and patience-->
+<!--AKALUTI PHILEMON-->
